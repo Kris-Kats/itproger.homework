@@ -13,12 +13,55 @@
 <body>
   <!-- Конспект -->
   <h3>Конспект</h3>
-
+  <p>Можно делать клевые формы с обработкой в скриптах, но что-то по ним станет понятно, когда буду изучать тот же php.</p>
+  <p>Пока простые формы</p>
+<form action="" method="post">
+  <label>Введите имя</label>
+  <input type="text" placeholder="Введите что-то. До 15 символов" maxlength="15"><br><br>
+  <label>Выбрать файл</label>
+  <input type="file"><br><br>
+  <label>Введите пароль</label>
+  <input type="password"><br><br>
+  <label>Введите мыло</label>
+  <input type="email"><br><br>
+  <label>Скинь ссыль</label>
+  <input type="url"><br><br>
+  <label>Тыкни в цвет</label>
+  <input type="color"><br><br>
+  <label>Тыкни в дату</label>
+  <input type="date"><br><br>
+  <label>Галочка</label>
+  <input type="checkbox"><br><br>
+  <label>Точечки</label>
+  <input type="radio" name="state">
+  <input type="radio" name="state"><br><br>
+  <label>Кнопочки</label>
+  <input type="submit" value="Отправить">
+  <input type="reset" value="Очистить">
+</form>
   
   <!-- Домашка -->
   <h3>Домашка</h3>
-
-  
+<form action="" method="post">
+	<input type="text" value="Name" name="text_field">
+	<input type="password" value="123" name="password_field">
+</form>
+<br><br>
+<h5>Типа полноценная форма уже с переменными</h5>
+<form action="" method="post">
+	<label>Имя:</label>
+	<input type="text" name="name"><br>
+	<label>Фамилия:</label>
+	<input type="text" name="last_name"><br>
+	<label>Дата рождения:</label>
+	<input type="date" name="birthday"><br>
+	<label>Мужчина</label>
+	<input type="radio" name="state" checked>
+	<label>Женщина</label>
+	<input type="radio" name="state"><br>
+	<input type="reset" value="Очистить форму">
+	<input type="submit" value="Отправить">
+</form>
   <br><br>
   <button><a href="index.html">Вернуться в зад</a></button>
 </body>
